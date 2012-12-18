@@ -18,6 +18,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    //git 重新测试 
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
@@ -27,7 +28,7 @@
     [self.window addSubview:nav.view];
     [self.window makeKeyAndVisible];
     return YES;
-    ////
+    //git 测试2
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
