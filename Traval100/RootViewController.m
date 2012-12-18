@@ -39,8 +39,6 @@
     _backimage.image=image;
     [self.view addSubview:_backimage];
     //    [_backimage release];
-    // 123
-    // 456
     for (int i=1; i<7; i++) {
         UIButton*bt=[[UIButton alloc]initWithFrame:CGRectMake(i==1?25:i==2?25:i==3?157:i==4?27:i==5?160:160, i==1?64:i==2?181:i==3?181:i==4?293:i==5?293:347, i==1?260:i==2?128:i==3?128:i==4?128:i==5?128:128, i==1?104:i==2?104:i==3?104:i==4?104:i==5?49:49)];
         [bt setBackgroundImage:[UIImage imageNamed:i==1?@"汽车票预定.png":i==2?@"帐户.png":i==3?@"公告.png":i==4?@"建议.png":i==5?@"关于我们.png":@"注册登录.png"] forState:UIControlStateNormal];
