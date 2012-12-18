@@ -65,6 +65,7 @@
 		841EDA79167F1BC200252A6D /* SuggestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841EDA47167F01AA00252A6D /* SuggestionViewController.m */; };
 		841EDA7A167F1BC500252A6D /* AboutUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841EDA49167F01AA00252A6D /* AboutUsViewController.m */; };
 		841EDA7B167F1BC700252A6D /* RegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841EDA4B167F01AA00252A6D /* RegistrationViewController.m */; };
+		A3C4F9CE168051B700CAA291 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = A3C4F9CD168051B700CAA291 /* first.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -139,6 +140,7 @@
 		841EDA49167F01AA00252A6D /* AboutUsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AboutUsViewController.m; sourceTree = "<group>"; };
 		841EDA4A167F01AA00252A6D /* RegistrationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegistrationViewController.h; sourceTree = "<group>"; };
 		841EDA4B167F01AA00252A6D /* RegistrationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegistrationViewController.m; sourceTree = "<group>"; };
+		A3C4F9CD168051B700CAA291 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +202,7 @@
 			children = (
 				841ED9EB167F018F00252A6D /* 小图 */,
 				841ED9E9167F018400252A6D /* welcome.png */,
+				A3C4F9CD168051B700CAA291 /* first.png */,
 				841ED9D9167F014000252A6D /* AppDelegate.h */,
 				841ED9DA167F014000252A6D /* AppDelegate.m */,
 				841ED9E5167F016600252A6D /* RootViewController.h */,
@@ -375,6 +378,7 @@
 				841EDA3D167F018F00252A6D /* 预定.png in Resources */,
 				841EDA3E167F018F00252A6D /* 预定失效.png in Resources */,
 				841EDA3F167F018F00252A6D /* 首页面背景.png in Resources */,
+				A3C4F9CE168051B700CAA291 /* first.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
