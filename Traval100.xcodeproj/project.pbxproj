@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5088C4651680A73F009922C1 /* decode_bound2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5088C4641680A73F009922C1 /* decode_bound2.png */; };
 		50B55BFA167F63BF0003CDF7 /* OrderListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B55BF9167F63BF0003CDF7 /* OrderListViewController.m */; };
 		50B55C27167F6CF40003CDF7 /* PassengerInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B55C26167F6CF40003CDF7 /* PassengerInfoViewController.m */; };
 		841ED9CB167F014000252A6D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841ED9CA167F014000252A6D /* UIKit.framework */; };
@@ -68,6 +69,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5088C4641680A73F009922C1 /* decode_bound2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = decode_bound2.png; sourceTree = "<group>"; };
 		50B55BF8167F63BE0003CDF7 /* OrderListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderListViewController.h; sourceTree = "<group>"; };
 		50B55BF9167F63BF0003CDF7 /* OrderListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderListViewController.m; sourceTree = "<group>"; };
 		50B55C25167F6CF40003CDF7 /* PassengerInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassengerInfoViewController.h; sourceTree = "<group>"; };
@@ -200,6 +202,7 @@
 			children = (
 				841ED9EB167F018F00252A6D /* 小图 */,
 				841ED9E9167F018400252A6D /* welcome.png */,
+				5088C4641680A73F009922C1 /* decode_bound2.png */,
 				841ED9D9167F014000252A6D /* AppDelegate.h */,
 				841ED9DA167F014000252A6D /* AppDelegate.m */,
 				841ED9E5167F016600252A6D /* RootViewController.h */,
@@ -375,6 +378,7 @@
 				841EDA3D167F018F00252A6D /* 预定.png in Resources */,
 				841EDA3E167F018F00252A6D /* 预定失效.png in Resources */,
 				841EDA3F167F018F00252A6D /* 首页面背景.png in Resources */,
+				5088C4651680A73F009922C1 /* decode_bound2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
