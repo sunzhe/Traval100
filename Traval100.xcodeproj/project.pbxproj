@@ -65,6 +65,7 @@
 		841EDA79167F1BC200252A6D /* SuggestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841EDA47167F01AA00252A6D /* SuggestionViewController.m */; };
 		841EDA7A167F1BC500252A6D /* AboutUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841EDA49167F01AA00252A6D /* AboutUsViewController.m */; };
 		841EDA7B167F1BC700252A6D /* RegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841EDA4B167F01AA00252A6D /* RegistrationViewController.m */; };
+		A3C4F9C21680442300CAA291 /* decode_bound2.png in Resources */ = {isa = PBXBuildFile; fileRef = A3C4F9C11680442300CAA291 /* decode_bound2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -139,6 +140,7 @@
 		841EDA49167F01AA00252A6D /* AboutUsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AboutUsViewController.m; sourceTree = "<group>"; };
 		841EDA4A167F01AA00252A6D /* RegistrationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegistrationViewController.h; sourceTree = "<group>"; };
 		841EDA4B167F01AA00252A6D /* RegistrationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegistrationViewController.m; sourceTree = "<group>"; };
+		A3C4F9C11680442300CAA291 /* decode_bound2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = decode_bound2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -234,6 +236,7 @@
 		841ED9EB167F018F00252A6D /* 小图 */ = {
 			isa = PBXGroup;
 			children = (
+				A3C4F9C11680442300CAA291 /* decode_bound2.png */,
 				841ED9EC167F018F00252A6D /* 修改密码.png */,
 				841ED9ED167F018F00252A6D /* 公告.png */,
 				841ED9EE167F018F00252A6D /* 关于我们.png */,
@@ -375,6 +378,7 @@
 				841EDA3D167F018F00252A6D /* 预定.png in Resources */,
 				841EDA3E167F018F00252A6D /* 预定失效.png in Resources */,
 				841EDA3F167F018F00252A6D /* 首页面背景.png in Resources */,
+				A3C4F9C21680442300CAA291 /* decode_bound2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
