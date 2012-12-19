@@ -27,7 +27,7 @@
     [self.window addSubview:nav.view];
     [self.window makeKeyAndVisible];
     return YES;
-    ///////
+    //在1 里测试改动代码
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
