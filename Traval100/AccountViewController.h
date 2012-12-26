@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface AccountViewController : UIViewController
-
+-(UIView *)viewWithTag:(int)index;
 @end
