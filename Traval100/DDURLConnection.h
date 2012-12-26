@@ -1,9 +1,9 @@
 //
-//  DDURLConnection.h
-//  DDCoupon
+//  AppDelegate.h
+//  Traval100
 //
-//  Created by ryan on 11-6-8.
-//  Copyright 2011 DDmap. All rights reserved.
+//  Created by admin on 12-12-17.
+//  Copyright (c) 2012年 admin. All rights reserved.
 //
 
 /*
