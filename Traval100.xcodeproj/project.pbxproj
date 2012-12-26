@@ -65,6 +65,9 @@
 		841EDA79167F1BC200252A6D /* SuggestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841EDA47167F01AA00252A6D /* SuggestionViewController.m */; };
 		841EDA7A167F1BC500252A6D /* AboutUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841EDA49167F01AA00252A6D /* AboutUsViewController.m */; };
 		841EDA7B167F1BC700252A6D /* RegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841EDA4B167F01AA00252A6D /* RegistrationViewController.m */; };
+		A3F0CA8E168AD01600434A68 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F0CA8D168AD01600434A68 /* Reachability.m */; };
+		A3F0CA92168AD22200434A68 /* DDURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F0CA91168AD22200434A68 /* DDURLConnection.m */; };
+		A3F0CA98168ADA6400434A68 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3F0CA97168ADA6400434A68 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,7 +87,7 @@
 		841ED9DA167F014000252A6D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		841ED9E5167F016600252A6D /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		841ED9E6167F016600252A6D /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		841ED9E9167F018400252A6D /* welcome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = welcome.png; sourceTree = "<group>"; };
+		841ED9E9167F018400252A6D /* welcome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = welcome.png; path = ../welcome.png; sourceTree = "<group>"; };
 		841ED9EC167F018F00252A6D /* 修改密码.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "修改密码.png"; sourceTree = "<group>"; };
 		841ED9ED167F018F00252A6D /* 公告.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "公告.png"; sourceTree = "<group>"; };
 		841ED9EE167F018F00252A6D /* 关于我们.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "关于我们.png"; sourceTree = "<group>"; };
@@ -139,6 +142,11 @@
 		841EDA49167F01AA00252A6D /* AboutUsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AboutUsViewController.m; sourceTree = "<group>"; };
 		841EDA4A167F01AA00252A6D /* RegistrationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegistrationViewController.h; sourceTree = "<group>"; };
 		841EDA4B167F01AA00252A6D /* RegistrationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegistrationViewController.m; sourceTree = "<group>"; };
+		A3F0CA8C168AD01600434A68 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		A3F0CA8D168AD01600434A68 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		A3F0CA90168AD22200434A68 /* DDURLConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDURLConnection.h; sourceTree = "<group>"; };
+		A3F0CA91168AD22200434A68 /* DDURLConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDURLConnection.m; sourceTree = "<group>"; };
+		A3F0CA97168ADA6400434A68 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +154,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3F0CA98168ADA6400434A68 /* SystemConfiguration.framework in Frameworks */,
 				841ED9CB167F014000252A6D /* UIKit.framework in Frameworks */,
 				841ED9CD167F014000252A6D /* Foundation.framework in Frameworks */,
 				841ED9CF167F014000252A6D /* CoreGraphics.framework in Frameworks */,
@@ -188,6 +197,7 @@
 		841ED9C9167F014000252A6D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A3F0CA97168ADA6400434A68 /* SystemConfiguration.framework */,
 				841ED9CA167F014000252A6D /* UIKit.framework */,
 				841ED9CC167F014000252A6D /* Foundation.framework */,
 				841ED9CE167F014000252A6D /* CoreGraphics.framework */,
@@ -199,22 +209,9 @@
 			isa = PBXGroup;
 			children = (
 				841ED9EB167F018F00252A6D /* 小图 */,
-				841ED9E9167F018400252A6D /* welcome.png */,
 				841ED9D9167F014000252A6D /* AppDelegate.h */,
 				841ED9DA167F014000252A6D /* AppDelegate.m */,
-				841ED9E5167F016600252A6D /* RootViewController.h */,
-				841ED9E6167F016600252A6D /* RootViewController.m */,
-				50B55C28167F6EFC0003CDF7 /* order ticket */,
-				841EDA42167F01AA00252A6D /* AccountViewController.h */,
-				841EDA43167F01AA00252A6D /* AccountViewController.m */,
-				841EDA44167F01AA00252A6D /* AnnountcementViewController.h */,
-				841EDA45167F01AA00252A6D /* AnnountcementViewController.m */,
-				841EDA46167F01AA00252A6D /* SuggestionViewController.h */,
-				841EDA47167F01AA00252A6D /* SuggestionViewController.m */,
-				841EDA48167F01AA00252A6D /* AboutUsViewController.h */,
-				841EDA49167F01AA00252A6D /* AboutUsViewController.m */,
-				841EDA4A167F01AA00252A6D /* RegistrationViewController.h */,
-				841EDA4B167F01AA00252A6D /* RegistrationViewController.m */,
+				A3F0CA9A168ADB6200434A68 /* class */,
 				841ED9D1167F014000252A6D /* Supporting Files */,
 			);
 			path = Traval100;
@@ -234,6 +231,7 @@
 		841ED9EB167F018F00252A6D /* 小图 */ = {
 			isa = PBXGroup;
 			children = (
+				841ED9E9167F018400252A6D /* welcome.png */,
 				841ED9EC167F018F00252A6D /* 修改密码.png */,
 				841ED9ED167F018F00252A6D /* 公告.png */,
 				841ED9EE167F018F00252A6D /* 关于我们.png */,
@@ -278,6 +276,38 @@
 				841EDA15167F018F00252A6D /* 首页面背景.png */,
 			);
 			path = "小图";
+			sourceTree = "<group>";
+		};
+		A3F0CA99168ADB3700434A68 /* tool */ = {
+			isa = PBXGroup;
+			children = (
+				A3F0CA90168AD22200434A68 /* DDURLConnection.h */,
+				A3F0CA91168AD22200434A68 /* DDURLConnection.m */,
+				A3F0CA8C168AD01600434A68 /* Reachability.h */,
+				A3F0CA8D168AD01600434A68 /* Reachability.m */,
+			);
+			name = tool;
+			sourceTree = "<group>";
+		};
+		A3F0CA9A168ADB6200434A68 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				A3F0CA99168ADB3700434A68 /* tool */,
+				50B55C28167F6EFC0003CDF7 /* order ticket */,
+				841ED9E5167F016600252A6D /* RootViewController.h */,
+				841ED9E6167F016600252A6D /* RootViewController.m */,
+				841EDA42167F01AA00252A6D /* AccountViewController.h */,
+				841EDA43167F01AA00252A6D /* AccountViewController.m */,
+				841EDA44167F01AA00252A6D /* AnnountcementViewController.h */,
+				841EDA45167F01AA00252A6D /* AnnountcementViewController.m */,
+				841EDA46167F01AA00252A6D /* SuggestionViewController.h */,
+				841EDA47167F01AA00252A6D /* SuggestionViewController.m */,
+				841EDA48167F01AA00252A6D /* AboutUsViewController.h */,
+				841EDA49167F01AA00252A6D /* AboutUsViewController.m */,
+				841EDA4A167F01AA00252A6D /* RegistrationViewController.h */,
+				841EDA4B167F01AA00252A6D /* RegistrationViewController.m */,
+			);
+			name = class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -396,6 +426,8 @@
 				841EDA7B167F1BC700252A6D /* RegistrationViewController.m in Sources */,
 				50B55BFA167F63BF0003CDF7 /* OrderListViewController.m in Sources */,
 				50B55C27167F6CF40003CDF7 /* PassengerInfoViewController.m in Sources */,
+				A3F0CA8E168AD01600434A68 /* Reachability.m in Sources */,
+				A3F0CA92168AD22200434A68 /* DDURLConnection.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
