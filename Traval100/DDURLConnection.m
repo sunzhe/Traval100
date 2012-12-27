@@ -121,7 +121,7 @@ static NSUInteger APICallIndex = 0;
     @try {
         [self cancel];
         
-        NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:self.url] cachePolicy:NSURLRequestReloadIgnoringLocalCacheData timeoutInterval:20.f];
+        NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:anUrl] cachePolicy:NSURLRequestReloadIgnoringLocalCacheData timeoutInterval:20.f];
         NSURLConnection *conn = [[NSURLConnection alloc] initWithRequest:request delegate:self];
         self.connection = conn;
         [conn release];

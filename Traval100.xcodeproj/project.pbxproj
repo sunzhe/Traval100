@@ -192,6 +192,12 @@
 			children = (
 				841EDA42167F01AA00252A6D /* AccountViewController.h */,
 				841EDA43167F01AA00252A6D /* AccountViewController.m */,
+				A3A4B624168C2BDD00690138 /* registerViewController.m */,
+				A3A4B625168C2BDD00690138 /* registerViewController.h */,
+				A3A4B626168C2BDD00690138 /* BackpasswordViewController.m */,
+				A3A4B627168C2BDD00690138 /* BackpasswordViewController.h */,
+				A3A4B628168C2BDD00690138 /* BackpasswordViewController.xib */,
+				A3A4B629168C2BDD00690138 /* registerViewController.xib */,
 			);
 			name = login;
 			sourceTree = "<group>";
@@ -300,12 +306,6 @@
 		A3F0CA99168ADB3700434A68 /* tool */ = {
 			isa = PBXGroup;
 			children = (
-				A3A4B624168C2BDD00690138 /* registerViewController.m */,
-				A3A4B625168C2BDD00690138 /* registerViewController.h */,
-				A3A4B626168C2BDD00690138 /* BackpasswordViewController.m */,
-				A3A4B627168C2BDD00690138 /* BackpasswordViewController.h */,
-				A3A4B628168C2BDD00690138 /* BackpasswordViewController.xib */,
-				A3A4B629168C2BDD00690138 /* registerViewController.xib */,
 				A3F0CA90168AD22200434A68 /* DDURLConnection.h */,
 				A3F0CA91168AD22200434A68 /* DDURLConnection.m */,
 				A3F0CA8C168AD01600434A68 /* Reachability.h */,
