@@ -9,10 +9,6 @@
 /* Begin PBXBuildFile section */
 		50B55BFA167F63BF0003CDF7 /* OrderListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B55BF9167F63BF0003CDF7 /* OrderListViewController.m */; };
 		50B55C27167F6CF40003CDF7 /* PassengerInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B55C26167F6CF40003CDF7 /* PassengerInfoViewController.m */; };
-		50EAA270168B41A7003903CD /* BackpasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50EAA26B168B41A7003903CD /* BackpasswordViewController.m */; };
-		50EAA271168B41A7003903CD /* BackpasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50EAA26C168B41A7003903CD /* BackpasswordViewController.xib */; };
-		50EAA272168B41A7003903CD /* registerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50EAA26E168B41A7003903CD /* registerViewController.m */; };
-		50EAA273168B41A7003903CD /* registerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50EAA26F168B41A7003903CD /* registerViewController.xib */; };
 		841ED9CB167F014000252A6D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841ED9CA167F014000252A6D /* UIKit.framework */; };
 		841ED9CD167F014000252A6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841ED9CC167F014000252A6D /* Foundation.framework */; };
 		841ED9CF167F014000252A6D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841ED9CE167F014000252A6D /* CoreGraphics.framework */; };
@@ -69,6 +65,10 @@
 		841EDA79167F1BC200252A6D /* SuggestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841EDA47167F01AA00252A6D /* SuggestionViewController.m */; };
 		841EDA7A167F1BC500252A6D /* AboutUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841EDA49167F01AA00252A6D /* AboutUsViewController.m */; };
 		841EDA7B167F1BC700252A6D /* RegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841EDA4B167F01AA00252A6D /* RegistrationViewController.m */; };
+		A3A4B62A168C2BDD00690138 /* registerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A4B624168C2BDD00690138 /* registerViewController.m */; };
+		A3A4B62B168C2BDD00690138 /* BackpasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A4B626168C2BDD00690138 /* BackpasswordViewController.m */; };
+		A3A4B62C168C2BDD00690138 /* BackpasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3A4B628168C2BDD00690138 /* BackpasswordViewController.xib */; };
+		A3A4B62D168C2BDD00690138 /* registerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3A4B629168C2BDD00690138 /* registerViewController.xib */; };
 		A3F0CA8E168AD01600434A68 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F0CA8D168AD01600434A68 /* Reachability.m */; };
 		A3F0CA92168AD22200434A68 /* DDURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F0CA91168AD22200434A68 /* DDURLConnection.m */; };
 		A3F0CA98168ADA6400434A68 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3F0CA97168ADA6400434A68 /* SystemConfiguration.framework */; };
@@ -79,12 +79,6 @@
 		50B55BF9167F63BF0003CDF7 /* OrderListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderListViewController.m; sourceTree = "<group>"; };
 		50B55C25167F6CF40003CDF7 /* PassengerInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassengerInfoViewController.h; sourceTree = "<group>"; };
 		50B55C26167F6CF40003CDF7 /* PassengerInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PassengerInfoViewController.m; sourceTree = "<group>"; };
-		50EAA26A168B41A7003903CD /* BackpasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BackpasswordViewController.h; path = "../../../../../../../../Volumes/武利华/Traval100/Traval100/BackpasswordViewController.h"; sourceTree = "<group>"; };
-		50EAA26B168B41A7003903CD /* BackpasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BackpasswordViewController.m; path = "../../../../../../../../Volumes/武利华/Traval100/Traval100/BackpasswordViewController.m"; sourceTree = "<group>"; };
-		50EAA26C168B41A7003903CD /* BackpasswordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BackpasswordViewController.xib; path = "../../../../../../../../Volumes/武利华/Traval100/Traval100/BackpasswordViewController.xib"; sourceTree = "<group>"; };
-		50EAA26D168B41A7003903CD /* registerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = registerViewController.h; path = "../../../../../../../../Volumes/武利华/Traval100/Traval100/registerViewController.h"; sourceTree = "<group>"; };
-		50EAA26E168B41A7003903CD /* registerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = registerViewController.m; path = "../../../../../../../../Volumes/武利华/Traval100/Traval100/registerViewController.m"; sourceTree = "<group>"; };
-		50EAA26F168B41A7003903CD /* registerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = registerViewController.xib; path = "../../../../../../../../Volumes/武利华/Traval100/Traval100/registerViewController.xib"; sourceTree = "<group>"; };
 		841ED9C6167F014000252A6D /* Traval100.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Traval100.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		841ED9CA167F014000252A6D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		841ED9CC167F014000252A6D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -152,6 +146,12 @@
 		841EDA49167F01AA00252A6D /* AboutUsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AboutUsViewController.m; sourceTree = "<group>"; };
 		841EDA4A167F01AA00252A6D /* RegistrationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegistrationViewController.h; sourceTree = "<group>"; };
 		841EDA4B167F01AA00252A6D /* RegistrationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegistrationViewController.m; sourceTree = "<group>"; };
+		A3A4B624168C2BDD00690138 /* registerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = registerViewController.m; sourceTree = "<group>"; };
+		A3A4B625168C2BDD00690138 /* registerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = registerViewController.h; sourceTree = "<group>"; };
+		A3A4B626168C2BDD00690138 /* BackpasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackpasswordViewController.m; sourceTree = "<group>"; };
+		A3A4B627168C2BDD00690138 /* BackpasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackpasswordViewController.h; sourceTree = "<group>"; };
+		A3A4B628168C2BDD00690138 /* BackpasswordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BackpasswordViewController.xib; sourceTree = "<group>"; };
+		A3A4B629168C2BDD00690138 /* registerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = registerViewController.xib; sourceTree = "<group>"; };
 		A3F0CA8C168AD01600434A68 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		A3F0CA8D168AD01600434A68 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		A3F0CA90168AD22200434A68 /* DDURLConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDURLConnection.h; sourceTree = "<group>"; };
@@ -192,12 +192,6 @@
 			children = (
 				841EDA42167F01AA00252A6D /* AccountViewController.h */,
 				841EDA43167F01AA00252A6D /* AccountViewController.m */,
-				50EAA26A168B41A7003903CD /* BackpasswordViewController.h */,
-				50EAA26B168B41A7003903CD /* BackpasswordViewController.m */,
-				50EAA26C168B41A7003903CD /* BackpasswordViewController.xib */,
-				50EAA26D168B41A7003903CD /* registerViewController.h */,
-				50EAA26E168B41A7003903CD /* registerViewController.m */,
-				50EAA26F168B41A7003903CD /* registerViewController.xib */,
 			);
 			name = login;
 			sourceTree = "<group>";
@@ -306,6 +300,12 @@
 		A3F0CA99168ADB3700434A68 /* tool */ = {
 			isa = PBXGroup;
 			children = (
+				A3A4B624168C2BDD00690138 /* registerViewController.m */,
+				A3A4B625168C2BDD00690138 /* registerViewController.h */,
+				A3A4B626168C2BDD00690138 /* BackpasswordViewController.m */,
+				A3A4B627168C2BDD00690138 /* BackpasswordViewController.h */,
+				A3A4B628168C2BDD00690138 /* BackpasswordViewController.xib */,
+				A3A4B629168C2BDD00690138 /* registerViewController.xib */,
 				A3F0CA90168AD22200434A68 /* DDURLConnection.h */,
 				A3F0CA91168AD22200434A68 /* DDURLConnection.m */,
 				A3F0CA8C168AD01600434A68 /* Reachability.h */,
@@ -429,8 +429,8 @@
 				841EDA3D167F018F00252A6D /* 预定.png in Resources */,
 				841EDA3E167F018F00252A6D /* 预定失效.png in Resources */,
 				841EDA3F167F018F00252A6D /* 首页面背景.png in Resources */,
-				50EAA271168B41A7003903CD /* BackpasswordViewController.xib in Resources */,
-				50EAA273168B41A7003903CD /* registerViewController.xib in Resources */,
+				A3A4B62C168C2BDD00690138 /* BackpasswordViewController.xib in Resources */,
+				A3A4B62D168C2BDD00690138 /* registerViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,8 +454,8 @@
 				50B55C27167F6CF40003CDF7 /* PassengerInfoViewController.m in Sources */,
 				A3F0CA8E168AD01600434A68 /* Reachability.m in Sources */,
 				A3F0CA92168AD22200434A68 /* DDURLConnection.m in Sources */,
-				50EAA270168B41A7003903CD /* BackpasswordViewController.m in Sources */,
-				50EAA272168B41A7003903CD /* registerViewController.m in Sources */,
+				A3A4B62A168C2BDD00690138 /* registerViewController.m in Sources */,
+				A3A4B62B168C2BDD00690138 /* BackpasswordViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
